@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Vert le Mariage — Site en maintenance</title>
+    <meta name="description" content="Le site Vert le Mariage est momentanément en maintenance. Revenez très vite ✨" />
+
+    <!-- Open Graph / SEO -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vert le Mariage — Site en maintenance" />
+    <meta property="og:description" content="Le site Vert le Mariage est momentanément en maintenance. Revenez très vite ✨" />
+    <meta property="og:image" content="https://dummyimage.com/1200x630/0f1729/ffffff&text=Vert+le+Mariage" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <meta name="theme-color" content="#0f1729" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+      --green: #2C7D5B;
+      --lightgreen: #99CCBF;
+      --pink: #D8A7A1;
+      --lightpink: #FAD3D3;
+      --white: #FFFFFF;
+      --taupe: #DFD7D1;
+      --beige: #F1EDEA;
+      --bg-start: var(--beige);
+      --bg-end: var(--taupe);
+      --card-bg: rgba(255, 255, 255, 0.7);
+      --card-border: rgba(44, 125, 91, 0.2);
+      --text: #2C7D5B;
+      --muted: #5a5a5a;
+      --accent: var(--pink);
+      }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(160deg, var(--bg-start), var(--bg-end));
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      }
+      .card {
+      width: 100%;
+      max-width: 720px;
+      padding: 36px;
+      border-radius: 24px;
+      backdrop-filter: blur(6px);
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      text-align: center;
+      }
+      .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      }
+      .logo {
+      width: 44px; height: 44px;
+      border-radius: 12px;
+      background: var(--green);
+      display: grid; place-items: center;
+      color: var(--white);
+      font-weight: 800;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      }
+      .brand-name {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: var(--green);
+      }
+      h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 6vw, 44px);
+      line-height: 1.1;
+      margin: 8px 0 12px;
+      color: var(--green);
+      }
+      .subtitle {
+      color: var(--muted);
+      font-size: clamp(14px, 2.5vw, 18px);
+      margin-bottom: 28px;
+      }
+      .cta-row {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+      margin-top: 6px;
+      }
+      .btn {
+      appearance: none; border: none; cursor: pointer;
+      padding: 12px 18px; border-radius: 12px; font-weight: 600; font-size: 15px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s ease, color 0.2s ease;
+      text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+      }
+      .btn-primary {
+      background: var(--green); color: var(--white);
+      box-shadow: 0 6px 16px rgba(44,125,91,0.35);
+      }
+      .btn-primary:hover { transform: translateY(-1px); background: var(--lightgreen); color: var(--green); }
+      .btn-ghost {
+      background: transparent; color: var(--green);
+      border: 1px solid var(--card-border);
+      }
+      .btn-ghost:hover { background: var(--lightpink); color: var(--green); }
+      .hint {
+      margin-top: 22px; color: var(--muted); font-size: 13px;
+      }
+      footer { margin-top: 28px; font-size: 12px; color: var(--muted); }
+      footer a { color: var(--accent); text-decoration: none; }
+      footer a:hover { text-decoration: underline; }
+
+
+      @media (prefers-reduced-motion: no-preference) {
+      .logo { animation: float 4s ease-in-out infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <main class="card" role="main">
+      <div class="brand" aria-label="Marque">
+        <div class="logo" aria-hidden="true">V</div>
+        <div class="brand-name">Vert le Mariage</div>
+      </div>
+
+      <h1>Site en maintenance</h1>
+      <p class="subtitle">Nous apportons les dernières touches pour vous offrir la meilleure expérience possible. Merci pour votre patience 💚</p>
+
+      <div class="cta-row">
+        
+        <a class="btn btn-primary" href="mailto:melanie@vertlemariage.com">Contact</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/vertlemariage/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+
+      <p class="hint">Astuce : ajoutez ce site aux favoris pour revenir facilement.</p>
+
+      <footer>
+        © <span id="year"></span> Vert le Mariage — Tous droits réservés
+      </footer>
+    </main>
+
+    <script>
+    
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+  </body>
+</html>
